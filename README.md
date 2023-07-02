@@ -5,7 +5,7 @@
 
 ## ALX Technical Intervew Prep projects
 
-This repo contains mock techanical interview questions and sessions during my Specialization at [ALX](https://www.alxafrica.com)
+This repo contains mock technical interview questions and sessions during my Specialization at [ALX](https://www.alxafrica.com)
 
 ## Interview Rounds
 
