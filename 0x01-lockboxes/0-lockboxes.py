@@ -5,8 +5,10 @@ This module contains the solution to the
 Inteview question of lockboxes
 """
 
+from typing import List
 
-def canUnlockAll(boxes):
+
+def canUnlockAll(boxes: List[List]) -> bool:
     """
     Determines if all the boxes can be opened.
 
