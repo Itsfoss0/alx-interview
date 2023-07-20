@@ -12,3 +12,6 @@ This repo contains mock technical interview questions and sessions during my Spe
 [Round - 1](./0x00-pascal_triangle): Pascal Triangle
 
 [Round - 2](./0x01-lockboxes): Lockboxes
+
+[Round -3 ](./0x03-log_parsing): Log parsing
+
