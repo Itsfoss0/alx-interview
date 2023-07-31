@@ -16,3 +16,6 @@ This repo contains mock technical interview questions and sessions during my Spe
 [Round - 3](./0x03-log_parsing): Log parsing
 
 [Round - 4](./0x04-utf8_validation): UTF-8 Validation
+
+[Round - 5](./0x05-nqueens): N-Queens
+
