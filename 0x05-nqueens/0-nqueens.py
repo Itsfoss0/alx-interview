@@ -6,6 +6,14 @@ import sys
 
 
 def generate_solutions(row, column):
+    """
+    solve a simple N x N matrix
+    Args:
+        row (int): Number of rows
+        column (int): Number of columns
+    Returns:
+        returns a list of lists
+    """
     solution = [[]]
     for queen in range(row):
         solution = place_queen(queen, column, solution)
@@ -13,6 +21,15 @@ def generate_solutions(row, column):
 
 
 def place_queen(queen, column, prev_solution):
+    """
+    Place the queen at a certain position
+    Args:
+        queen (int): The queen
+        column (int): The column to move
+        prev_solution (list): the previous move
+    Returns:
+        returns a list
+    """
     safe_position = []
     for array in prev_solution:
         for x in range(column):
@@ -22,6 +39,15 @@ def place_queen(queen, column, prev_solution):
 
 
 def is_safe(q, x, array):
+    """
+    check if it's safe to make a move
+    Args:
+        q (int): row to move to
+        x (int): column to move to
+        array (array): the matrix
+    Returns:
+        returns a boolean
+    """
     if x in array:
         return (False)
     else:
@@ -30,6 +56,13 @@ def is_safe(q, x, array):
 
 
 def init():
+    """
+    Lets initialize the game shall we?
+    Args:
+        this function doesn't take any args
+    Returns:
+        returns an integer
+    """
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
@@ -45,7 +78,15 @@ def init():
 
 
 def n_queens():
-
+    """
+    The main entry point
+    Args:
+        can be called without passing args
+    Returns:
+        returns None
+    Example
+    -----------------------
+    """
     n = init()
     solutions = generate_solutions(n, n)
     for array in solutions:
