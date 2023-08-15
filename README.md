@@ -20,3 +20,6 @@ This repo contains mock technical interview questions and sessions during my Spe
 [Round - 5](./0x05-nqueens): N-Queens
 
 [Round - 6](./0x06-starwars_api): Starwars API
+
+[Round - 7 ](./0x07-rotate_2d_matrix): Rotate a 2D matrix
+
