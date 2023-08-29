@@ -24,3 +24,6 @@ This repo contains mock technical interview questions and sessions during my Spe
 [Round - 7 ](./0x07-rotate_2d_matrix): Rotate a 2D matrix
 
 [Round - 8](./0x08-making_change): Making Change
+
+[Round - 9 ](./0x09-island_perimeter): Island Perimeter
+
